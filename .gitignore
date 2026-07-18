@@ -1,0 +1,16 @@
+# Obsidian
+.obsidian/
+.trash/
+
+# OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
