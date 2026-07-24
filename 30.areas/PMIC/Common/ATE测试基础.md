@@ -17,13 +17,13 @@ created: 2026-07-17
 
 ### 常见 ATE 平台
 
-| 平台 | 厂商 | PMIC 适用性 |
-|------|------|-------------|
-| **UltraFLEX / J750** | Teradyne | 广泛应用，PMIC 主流 |
-| **V93000** | Advantest | 高端混合信号 |
-| **ETS-800 / 3640** | Chroma | 电源管理专用 |
-| **ASL-1000 / STS** | SPEA | 模拟/电源芯片 |
-| **PECC** | 华峰测控 | 国内模拟测试 |
+| 平台                   | 厂商        | PMIC 适用性     |
+| -------------------- | --------- | ------------ |
+| **UltraFLEX / J750** | Teradyne  | 广泛应用，PMIC 主流 |
+| **V93000**           | Advantest | 高端混合信号       |
+| **ETS-800 / 3640**   | Chroma    | 电源管理专用       |
+| **ASL-1000 / STS**   | SPEA      | 模拟/电源芯片      |
+| **PECC**             | 华峰测控      | 国内模拟测试       |
 
 ---
 
@@ -151,21 +151,23 @@ Performance Board (PB) / DIB
 
 ## 六、常见 PMIC 测试术语
 
-| 术语 | 含义 |
-|------|------|
-| **SRAM** | 芯片上电后的寄存器默认配置 (如 Trim 值) |
-| **OTP / EFUSE** | 一次性可编程存储 (用于存 Trim Code) |
-| **Hiccup** | OCP/SCP 保护的一种恢复模式 |
-| **PSM / PFM** | 轻载模式，降低开关频率节能 |
-| **PWM** | 脉宽调制 |固定频率正常工作模式 |
-| **Soft Start** | 软启动，控制 VOUT 上升斜率 |
-| **DO / ΔVDO** | Dropout Voltage / Dropout Delta |
-| **Load Transient** | 负载瞬态，负载跳变时的响应 |
+| 术语                 | 含义                              |            |
+| ------------------ | ------------------------------- | ---------- |
+| **SRAM**           | 芯片上电后的寄存器默认配置 (如 Trim 值)        |            |
+| **OTP / EFUSE**    | 一次性可编程存储 (用于存 Trim Code)        |            |
+| **Hiccup**         | OCP/SCP 保护的一种恢复模式               |            |
+| **PSM / PFM**      | 轻载模式，降低开关频率节能                   |            |
+| **PWM**            | 脉宽调制                            | 固定频率正常工作模式 |
+| **Soft Start**     | 软启动，控制 VOUT 上升斜率                |            |
+| **DO / ΔVDO**      | Dropout Voltage / Dropout Delta |            |
+| **Load Transient** | 负载瞬态，负载跳变时的响应                   |            |
 
 ---
 
 ## 参考资料
 
+- [[30.areas/PMIC/Common/FT|FT 测试完整指南]] — **FT 流程与实践**
+- [[30.areas/PMIC/Common/Trim|PMIC Trim 完整指南]] — **Trim 全流程**
 - [[30.areas/PMIC/Common/时序测试|时序测试方法]]
 - [[30.areas/PMIC/Buck/Buck_测试项目总览|Buck 测试项目总览]]
 - [[30.areas/PMIC/Protection/OVP_OCP_OTP_UVLO|保护功能测试]]

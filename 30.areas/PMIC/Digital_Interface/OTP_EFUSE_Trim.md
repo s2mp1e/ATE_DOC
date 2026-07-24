@@ -144,6 +144,8 @@ RC Ton      100ns       95ns        108ns
 
 ## 参考资料
 
+- [[30.areas/PMIC/Common/Trim|PMIC Trim 完整指南]] — **全模块 Trim 方法大全**
+- [[30.areas/PMIC/Common/FT|FT 测试完整指南]] — FT 中的 Trim 验证流程
 - [[30.areas/PMIC/Analog_Core/Bandgap_原理与测试|Bandgap]]
 - [[30.areas/PMIC/Analog_Core/Oscillator_原理与测试|Oscillator]]
 - [[30.areas/PMIC/Buck/Buck_Ton与ACT_TIME测试|Buck Ton Trim]]

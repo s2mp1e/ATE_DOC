@@ -2,6 +2,14 @@
 .obsidian/
 .trash/
 
+# Claude Internal
+.claudian/
+.claude/
+
+# AI Tools
+copilot/
+PMIC/
+
 # OS
 Thumbs.db
 .DS_Store

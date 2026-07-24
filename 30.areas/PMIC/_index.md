@@ -14,6 +14,17 @@ created: 2026-07-17
 
 ---
 
+## ⭐ 核心参考文档 / Core References
+
+> 这两份文档是 PMIC 测试的完整参考指南，涵盖跨模块的全流程知识。
+
+| 文档 | 内容 | 阅读时长 |
+|------|------|:---:|
+| [[30.areas/PMIC/Common/Trim\|📖 PMIC Trim 完整指南]] | 全模块 Trim 方法、存储技术、CP 流程、计算方式、Guard Band | 30 min |
+| [[30.areas/PMIC/Common/FT\|📖 FT 测试完整指南]] | FT 硬件/流程/测试项/Bin 策略/三温 FT/DIB 设计/数据 | 35 min |
+
+---
+
 ## 📦 知识库结构 / Structure
 
 ### 核心转换器 / Core Converters
