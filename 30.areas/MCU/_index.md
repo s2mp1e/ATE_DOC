@@ -33,6 +33,7 @@ created: 2026-07-18
 | [[30.areas/MCU/ADC/_index\|ADC]] | SAR/ΣΔ ADC — INL/DNL/SNR/THD/ENOB | [[ADC_原理与测试\|ADC 测试详解]] |
 | [[30.areas/MCU/DAC/_index\|DAC]] | DAC — INL/DNL/Settling/Glitch | [[DAC_原理与测试\|DAC 测试详解]] |
 | [[30.areas/MCU/PGA_OpAmp/_index\|PGA / OpAmp / Comparator]] | 可编程增益放大器、运放、比较器 | [[PGA_原理与测试\|PGA 测试详解]] |
+| [[30.areas/MCU/VREF_Sensor/_index\|VREF / Temp Sensor]] | 基准源、温度传感器校准、电压监测 | [[VREF_TempSensor_测试\|VREF 测试详解]] |
 
 ### 数字与存储 / Digital & Memory
 
@@ -42,12 +43,20 @@ created: 2026-07-18
 | [[30.areas/MCU/Clock/_index\|Clock / OSC / PLL]] | 时钟系统 — 频率/Jitter/Lock Time/Trim | [[Clock_OSC_PLL_测试\|Clock 测试详解]] |
 | [[30.areas/MCU/Digital_Peripheral/_index\|Digital Peripherals]] | GPIO/UART/SPI/I2C/Timer/PWM/WDT | [[GPIO_UART_SPI_测试\|外设测试详解]] |
 
-### 系统与 DFT / System & DFT
+### 系统与安全 / System & Security
 
 | 模块 | 描述 | 关键页面 |
 |------|------|---------|
 | [[30.areas/MCU/System/_index\|Power & System]] | Idd 功耗/复位 POR/BOD/内部 LDO | [[Idd_电源_复位_测试\|系统测试详解]] |
 | [[30.areas/MCU/DFT/_index\|DFT / Scan / BIST]] | 扫描测试/内建自测试/测试模式 | [[Scan_DFT_测试\|DFT 测试详解]] |
+| [[30.areas/MCU/DMA_NVIC/_index\|DMA / NVIC]] | DMA 传输、中断控制器、SysTick | [[DMA_NVIC_测试\|DMA/NVIC 测试详解]] |
+
+### 通信与安全 / Communication & Security
+
+| 模块 | 描述 | 关键页面 |
+|------|------|---------|
+| [[30.areas/MCU/Comm_Interface/_index\|USB / CAN / LIN]] | 高速通信接口 — 电气/协议/枚举测试 | [[USB_CAN_LIN_测试\|通信测试详解]] |
+| [[30.areas/MCU/Security/_index\|Security]] | AES/TRNG/CRC/SHA/RDP 安全模块 | [[Security_原理与测试\|安全测试详解]] |
 
 ### 通用基础 / Common Foundations
 
