@@ -50,6 +50,7 @@ created: 2026-07-18
 | [[30.areas/MCU/System/_index\|Power & System]] | Idd 功耗/复位 POR/BOD/内部 LDO | [[Idd_电源_复位_测试\|系统测试详解]] |
 | [[30.areas/MCU/DFT/_index\|DFT / Scan / BIST]] | 扫描测试/内建自测试/测试模式 | [[Scan_DFT_测试\|DFT 测试详解]] |
 | [[30.areas/MCU/DMA_NVIC/_index\|DMA / NVIC]] | DMA 传输、中断控制器、SysTick | [[DMA_NVIC_测试\|DMA/NVIC 测试详解]] |
+| [[30.areas/MCU/Boot_ROM/_index\|Boot ROM / 启动]] | 启动流程、Boot 模式、ISP 烧录 | [[Boot_启动测试\|Boot 测试详解]] |
 
 ### 通信与安全 / Communication & Security
 
@@ -57,6 +58,14 @@ created: 2026-07-18
 |------|------|---------|
 | [[30.areas/MCU/Comm_Interface/_index\|USB / CAN / LIN]] | 高速通信接口 — 电气/协议/枚举测试 | [[USB_CAN_LIN_测试\|通信测试详解]] |
 | [[30.areas/MCU/Security/_index\|Security]] | AES/TRNG/CRC/SHA/RDP 安全模块 | [[Security_原理与测试\|安全测试详解]] |
+
+### 应用模块 / Application Modules
+
+| 模块 | 描述 | 关键页面 |
+|------|------|---------|
+| [[30.areas/MCU/Touch/_index\|Touch 电容触摸]] | 充电转移检测、灵敏度、抗扰 | [[Touch_原理与测试\|Touch 测试详解]] |
+| [[30.areas/MCU/LCD_Driver/_index\|LCD 段码驱动]] | 偏压/波形/帧频/对比度 | [[LCD_段码驱动测试\|LCD 测试详解]] |
+| [[30.areas/MCU/Motor_Control/_index\|Motor Control 电机控制]] | 互补 PWM/死区/BRK/编码器 | [[Motor_测试详解\|电机测试详解]] |
 
 ### 通用基础 / Common Foundations
 
