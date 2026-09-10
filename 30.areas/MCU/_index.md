@@ -66,6 +66,7 @@ created: 2026-07-18
 | [[30.areas/MCU/Touch/_index\|Touch 电容触摸]] | 充电转移检测、灵敏度、抗扰 | [[Touch_原理与测试\|Touch 测试详解]] |
 | [[30.areas/MCU/LCD_Driver/_index\|LCD 段码驱动]] | 偏压/波形/帧频/对比度 | [[LCD_段码驱动测试\|LCD 测试详解]] |
 | [[30.areas/MCU/Motor_Control/_index\|Motor Control 电机控制]] | 互补 PWM/死区/BRK/编码器 | [[Motor_测试详解\|电机测试详解]] |
+| [[30.areas/MCU/BLE_RF/_index\|BLE / RF 无线]] | RF ATE 资源/TX-RX 测试/DTM/校准 | [[BLE_RF_测试详解\|RF 测试详解]] |
 
 ### 通用基础 / Common Foundations
 
